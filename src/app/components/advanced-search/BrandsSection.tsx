@@ -9,7 +9,7 @@ const BrandsSection = ({ brands }: { brands: any[] }) => {
                     <React.Fragment key={brand?.id}>
                         <Link
                             href={`/brand/${brand?.slug}`}
-                            className="text-[#d42020] underline  whitespace-nowrap"
+                            className="text-[#ff6900] underline  whitespace-nowrap"
                         >
                             {brand?.name}
                         </Link>

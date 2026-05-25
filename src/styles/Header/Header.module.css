@@ -2,11 +2,11 @@
     margin-right: 1px;
     width: 40px;
     display: block;
-    background: #d42020;
+    background: #ff6900;
     padding: 2px 5px 0px 9px;
     font-size: 20px;
     border-bottom: 3px solid;
-    border-color: #860109;
+    border-color: #ff6900;
     color: white;
     cursor: pointer;
 }

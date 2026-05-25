@@ -216,7 +216,7 @@ const GlobalSearchBar: React.FC = () => {
                       e.stopPropagation();
                       const url = item?.brand?.slug || `/${item?.sku}`;
                       handleSelect(`/brand/${url}`);
-                    }} className="text-[1rem] text-[#545454] uppercase hover:text-[#d42020]">
+                    }} className="text-[1rem] text-[#545454] uppercase hover:text-[#ff6900]">
                       {item?.brand?.name || "Brand"}
                     </p>
 
@@ -226,7 +226,7 @@ const GlobalSearchBar: React.FC = () => {
                       e.stopPropagation();
                       const url = item?.productUrl || `/${item?.sku}`;
                       handleSelect(url);
-                    }} className="text-[1rem] text-[#545454] mt-0.5 hover:text-[#d42020]">
+                    }} className="text-[1rem] text-[#545454] mt-0.5 hover:text-[#ff6900]">
                       Sku: {item?.sku || "N/A"}
                     </p>
 
@@ -236,7 +236,7 @@ const GlobalSearchBar: React.FC = () => {
                       e.stopPropagation();
                       const url = item?.productUrl || `/${item?.sku}`;
                       handleSelect(url);
-                    }} className="text-[14px] font-bold text-[#54545F] leading-tight mt-2 line-clamp-2 min-h-[42px] hover:text-[#d42020]">
+                    }} className="text-[14px] font-bold text-[#54545F] leading-tight mt-2 line-clamp-2 min-h-[42px] hover:text-[#ff6900]">
                       {item?.name}
                     </p>
 

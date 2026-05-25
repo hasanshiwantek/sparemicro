@@ -72,7 +72,7 @@
 }
 
 :root {
-  --primary-color: #e62424;
+  --primary-color: #ff6900;
   --bg-color: #eaeaea;
   --font-color: #545454;
   --border-color: #f2f2f2;
@@ -214,7 +214,7 @@ button {
 }
 
 .btn-outline-primary:hover {
-  @apply bg-[white] text-[#d42020] border-[#d42020];
+  @apply bg-[white] text-[#ff6900] border-[#ff6900];
 }
 
 
@@ -226,10 +226,10 @@ button {
   @apply font-bold text-[18px] leading-4 uppercase;
 
   /* Colors */
-  @apply bg-[#d42020] text-white;
+  @apply bg-[#ff6900] text-white;
 
   /* Border styling - no left, right, top borders, bottom border with darker color */
-  @apply border-0 border-b-[4px] border-b-[#860109] rounded-none;
+  @apply border-0 border-b-[4px] border-b-[#eb6302] rounded-none;
 
   /* Spacing */
   @apply px-[2.28571rem] py-[0.85714rem] my-0;
@@ -245,15 +245,15 @@ button {
 }
 
 .btn-primary:hover {
-  @apply bg-[#b81818] border-b-[#6b0107];
+  @apply bg-[#eb6302] border-b-[#eb6302];
 }
 
 .btn-primary:active {
-  @apply bg-[#9e1414] translate-y-[1px];
+  @apply bg-[#eb6302] translate-y-[1px];
 }
 
 .btn-primary:focus {
-  @apply outline-2 outline-[#d42020] outline-offset-2;
+  @apply outline-2 outline-[#ff6900] outline-offset-2;
 }
 
 

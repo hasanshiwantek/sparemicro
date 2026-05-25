@@ -85,7 +85,7 @@ export default function ProductPage({
                                     </span>
                                     <span
                                         className={`text-[11px] 
-                   !text-[#D42020]
+                   !text-[#ff6900]
                     `}
                                         itemProp="name"
                                     >

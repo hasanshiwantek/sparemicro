@@ -66,7 +66,7 @@ const RecentPost = () => {
                   <h3 className="text-xl group-hover:text-[#F15939] transition-colors duration-200 line-clamp-2">
                     {blog.title}
                   </h3>
-                  <p className="!text-[#D42020] group-hover:text-[#F15939] transition-colors duration-200 line-clamp-2 text-sm">
+                  <p className="!text-[#ff6900] group-hover:text-[#F15939] transition-colors duration-200 line-clamp-2 text-sm">
                     {new Date(blog.createdAt).toLocaleDateString("en-US", {
                       year: "numeric",
                       month: "long",

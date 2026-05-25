@@ -40,11 +40,11 @@ const ContactForm = () => {
       {/* Breadcrumb */}
       <nav className="mb-6">
         <div className="flex items-center gap-2 text-sm">
-          <Link href="/" className="text-[#D40511] hover:underline">
+          <Link href="/" className="text-[#ff6900] hover:underline">
             Home
           </Link>
           <span className="text-gray-600">/</span>
-          <span className="text-[#D40511]">Contact Form</span>
+          <span className="text-[#ff6900]">Contact Form</span>
         </div>
       </nav>
 
@@ -78,7 +78,7 @@ const ContactForm = () => {
           your data will be handled, please visit&nbsp;
           <a
             href="/privacy-Policy"
-            className="text-[#D40511] underline cursor-pointer"
+            className="text-[#ff6900] underline cursor-pointer"
             target="_blank"
             rel="noopener noreferrer"
           >

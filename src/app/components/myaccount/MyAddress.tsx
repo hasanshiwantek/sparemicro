@@ -195,13 +195,13 @@ const MyAddress = () => {
   <div className="flex flex-col md:flex-row gap-4 mt-10">
     <Button
       onClick={handleUpdate}
-      className="w-full md:w-[16%] !p-7 text-2xl border-b-2 border-black bg-[#D42020] text-white font-bold"
+      className="w-full md:w-[16%] !p-7 text-2xl border-b-2 border-black bg-[#ff6900] text-white font-bold"
     >
       SAVE ADDRESS
     </Button>
     <Button
       onClick={() => setShowModal(false)}
-      className="w-full md:w-36 !p-7 text-2xl border-b-2 border-black bg-[#D42020] font-bold text-white transition"
+      className="w-full md:w-36 !p-7 text-2xl border-b-2 border-black bg-[#ff6900] font-bold text-white transition"
     >
       CANCEL
     </Button>
@@ -261,7 +261,7 @@ const MyAddress = () => {
 {/* Edit Button */}
 <button
   onClick={() => openEditModal(item)}
-  className="w-50 px-4 py-3 rounded text-2xl font-bold bg-[#D42020] text-white border-b-2 border-black transition"
+  className="w-50 px-4 py-3 rounded text-2xl font-bold bg-[#ff6900] text-white border-b-2 border-black transition"
 >
   Edit
 </button>
@@ -269,7 +269,7 @@ const MyAddress = () => {
 {/* Delete Button */}
 <button
   onClick={() => handleDelete(item.addressId)}
-  className="w-50 px-4 py-3 rounded text-2xl font-bold bg-[#D42020] text-white border-b-2 border-black transition"
+  className="w-50 px-4 py-3 rounded text-2xl font-bold bg-[#ff6900] text-white border-b-2 border-black transition"
 >
   Delete
 </button>
@@ -285,7 +285,7 @@ const MyAddress = () => {
               href="/my-account/addresses/new-address"
               className="flex flex-col items-center justify-center gap-2"
             >
-              <Plus size={44} className="text-[#D42020]" />
+              <Plus size={44} className="text-[#ff6900]" />
 
               <span className="font-medium text-xl">New Address</span>
             </Link>

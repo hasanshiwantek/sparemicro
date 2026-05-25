@@ -45,7 +45,7 @@ export default function ProductTabs({ tabs, activeTab: controlledActive, onTabCh
             onClick={() => handleClick(index)}
             className={`uppercase tracking-wide transition-colors ${
               activeIndex === index
-                ? "text-[#d42020] border-b-1 border-[#d42020] "
+                ? "text-[#ff6900] border-b-1 border-[#ff6900] "
                 : "text-gray-500 hover:text-gray-700"
             }`}
           >

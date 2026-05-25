@@ -1,7 +1,7 @@
 "use client";
 import React, { useState } from "react";
 import { Search, ShoppingCart, Menu, X } from "lucide-react";
-import navlogo from "@/assets/nav-logo.webp";
+import navlogo from "@/assets/nav-logo.png";
 import Image from "next/image";
 import Link from "next/link";
 import { RootState } from "@/redux/store";
@@ -86,7 +86,7 @@ const Navbar: React.FC = () => {
               <button aria-label="cart" className="relative">
                 <ShoppingCart className="w-6 h-6" />
                 {cart?.length > 0 && (
-                  <span className="absolute -top-2 -right-2 bg-red-600 text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
+                  <span className="absolute -top-2 -right-2 bg-[#ff6900] text-white text-xs rounded-full w-4 h-4 flex items-center justify-center">
                     {cart?.length}
                   </span>
                 )}
