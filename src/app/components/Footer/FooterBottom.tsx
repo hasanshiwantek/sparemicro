@@ -130,10 +130,10 @@ const FooterBottom = () => {
               <p>
                 <span className="font-semibold">Email:</span>{" "}
                 <a
-                  href="mailto:info@techifynation.com"
+                  href="mailto:info@sparemicro.com"
                   className="hover:text-gray-300"
                 >
-                  info@techifynation.com
+                  info@sparemicro.com
                 </a>
               </p>
               <p className="mt-3">
