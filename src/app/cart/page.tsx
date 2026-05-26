@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Spare Micro LLC - Shopping Cart"
+    absolute: "Spare Micro  - Shopping Cart"
   },
   description:
     "View and manage your items in the shopping cart at Spare Micro. Add, remove, or update quantities before checkout.",

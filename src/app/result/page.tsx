@@ -4,7 +4,7 @@ import ResultSuccess from '../components/Result/ResultSuccess';
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Spare Micro LLC - Newsltter Subcription"
+    absolute: "Spare Micro  - Newsltter Subcription"
   },
   description:
     "View and manage your items in the shopping cart at Spare Micro. Add, remove, or update quantities before checkout.",

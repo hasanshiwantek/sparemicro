@@ -6,7 +6,7 @@ import { getBlogByIdServer } from "@/lib/api/products";
 import { Metadata } from "next";
 import navlogo from "@/assets/navlogo.png";
 
-const SITE_NAME = "Spare Micro LLC";
+const SITE_NAME = "Spare Micro ";
 const BASE_URL = "https://sparemicro.vercel.app";
 const TWITTER_HANDLE = "@serverblink"; 
 const LOGO_URL = `${BASE_URL}/${navlogo}`; 

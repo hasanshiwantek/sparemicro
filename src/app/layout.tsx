@@ -64,7 +64,7 @@ export const metadata: Metadata = {
   title: {
     // default: "Spare Micro",
     // template: "%s | Spare Micro",
-    default: "Spare Micro LLC",
+    default: "Spare Micro ",
     template: "%s | Spare Micro ",
   },
   description:
