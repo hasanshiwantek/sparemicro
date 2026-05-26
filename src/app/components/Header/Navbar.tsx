@@ -55,12 +55,12 @@ const Navbar: React.FC = () => {
               <div className="flex flex-col text-gray-800">
                 <p className="text-[15px] font-semibold">
                   Call:{" "}
-                  <a
+                  {/* <a
                     href="tel:+15022063033"
                     className="text-[var(--primary-color)] text-[15px] hover:underline"
                   >
                     +1 502-206-3033
-                  </a>
+                  </a> */}
                 </p>
 
                 <p className="text-[15px] font-semibold">
