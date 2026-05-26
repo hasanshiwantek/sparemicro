@@ -10,6 +10,7 @@ import { Suspense } from "react";
 import CategoriesSidebar from "../components/Home/CategoriesSidebar";
 import BrandsSidebar from "../components/Home/BrandsSidebar";
 import { notFound, redirect } from "next/navigation";
+import Link from "next/link";
 
 // ✅ Dynamic metadata for SEO
 export async function generateMetadata({
