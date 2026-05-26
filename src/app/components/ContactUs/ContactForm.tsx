@@ -70,12 +70,7 @@ const ContactForm = () => {
           SMS Disclaimer:
         </p>
         <p className="text-[10px] text-[#545454] font-normal leading-[1.8]">
-          By providing my phone number to Spare Micro LLC, I agree and acknowledge
-          that Spare Micro may send text messages to my wireless phone number
-          for any purpose. Message frequency will vary, and Message and data
-          rates may apply. If you need further assistance, please reply “HELP”.
-          You can also opt out by replying “STOP.” For more information on how
-          your data will be handled, please visit&nbsp;
+          By providing my phone number to SpareMicro LLC, I agree and acknowledge that SpareMicro may send text messages to my wireless phone number for any purpose. Message frequency will vary, and Message and data rates may apply. If you need further assistance, please reply "HELP". You can also opt out by replying "STOP." For more information on how your data will be handled, please visit our privacy policy. 
           <a
             href="/privacy-Policy"
             className="text-[#ff6900] underline cursor-pointer"
