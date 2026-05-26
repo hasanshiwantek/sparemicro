@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "Spare Micro contact",
   ],
   alternates: {
-    canonical: "https://server-blink.vercel.app/contact-us",
+    canonical: "https://sparemicro.vercel.app/contact-us",
   },
   openGraph: {
     title: "Contact Us | Spare Micro",
     description:
       "Get in touch with Spare Micro for product inquiries, customer support, and sales questions.",
-    url: "https://server-blink.vercel.app/contact-us",
+    url: "https://sparemicro.vercel.app/contact-us",
     siteName: "Spare Micro",
     images: [
       {

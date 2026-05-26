@@ -21,13 +21,13 @@ export const metadata: Metadata = {
     "Spare Micro story",
   ],
   alternates: {
-    canonical: "https://server-blink.vercel.app/about-us",
+    canonical: "https://sparemicro.vercel.app/about-us",
   },
   openGraph: {
     title: "About Us | Spare Micro",
     description:
       "Learn more about Spare Micro, our mission, values, and commitment to providing quality server parts and IT solutions.",
-    url: "https://server-blink.vercel.app/about-us",
+    url: "https://sparemicro.vercel.app/about-us",
     siteName: "Spare Micro",
     images: [
       {

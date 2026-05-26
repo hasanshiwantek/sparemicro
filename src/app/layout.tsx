@@ -60,7 +60,7 @@ const robotoCondensed = Roboto_Condensed({
 // });
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://server-blink.vercel.app"),
+  metadataBase: new URL("https://sparemicro.vercel.app"),
   title: {
     // default: "Spare Micro",
     // template: "%s | Spare Micro",
@@ -80,7 +80,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://server-blink.vercel.app",
+    url: "https://sparemicro.vercel.app",
     siteName: "Spare Micro",
     title: "Spare Micro – Quality Servers & IT Solutions",
     description:

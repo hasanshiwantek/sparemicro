@@ -66,10 +66,10 @@ const Navbar: React.FC = () => {
                 <p className="text-[15px] font-semibold">
                   Email:{" "}
                   <a
-                    href="mailto:sales@serverblink.com"
+                    href="mailto:info@sparemicro.com"
                     className="text-[var(--primary-color)] text-[15px] hover:underline"
                   >
-                    sales@serverblink.com
+                    info@sparemicro.com
                   </a>
                 </p>
               </div>
@@ -143,10 +143,10 @@ const Navbar: React.FC = () => {
                 <p className="text-sm">
                   Email:{" "}
                   <a
-                    href="mailto:sales@serverblink.com"
+                    href="mailto:info@sparemicro.com"
                     className="hover:text-red-600"
                   >
-                    sales@serverblink.com
+                    info@sparemicro.com
                   </a>
                 </p>
               </div>

@@ -9,19 +9,19 @@ import ShopNow from "./components/Home/ShopNow";
 import Testimonials from "./components/Home/Testimonials";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://server-blink.vercel.app"),
+  metadataBase: new URL("https://sparemicro.vercel.app"),
   title: "PC, Computer & Server Parts | IT Hardware Store | Spare Micro",
   // title: "Home | Spare Micro",
   description:
     "Welcome to Spare Micro – your one-stop shop for servers, networking equipment, and IT solutions. Get the best prices and fast delivery.",
   alternates: {
-    canonical: "https://server-blink.vercel.app",
+    canonical: "https://sparemicro.vercel.app",
   },
   openGraph: {
     title: "Spare Micro – Home",
     description:
       "Shop servers, networking gear, and IT solutions at Spare Micro. Affordable, reliable, and delivered fast.",
-    url: "https://server-blink.vercel.app",
+    url: "https://sparemicro.vercel.app",
     siteName: "Spare Micro",
     images: [
       {
@@ -84,7 +84,7 @@ const Page = async () => {
                 isSlider={true}
                 title={"New Products".toUpperCase()}
               />
-              <Testimonials />
+              {/* <Testimonials /> */}
               <Brands />
               <ShopNow />
             </div>
