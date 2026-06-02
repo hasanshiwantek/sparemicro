@@ -341,7 +341,7 @@ const TopHeader = () => {
                                 handleSelect(url);
                               }}
                               // className="mt-4 w-full bg-[#cccccc] hover:bg-[#bbbbbb] text-[#333] font-bold text-[14px] uppercase py-3 tracking-widest transition-all active:bg-gray-400 btn-pri"
-                              className="font-bold text-[14px] font-roboto-condensed leading-4 uppercase font-robot border-b-[4px] border-b-[#393939] bg-[#cac9c9] text-[#393939] rounded-none hover:bg-[#b81818] hover:border-b-[#6b0107] hover:text-white px-[2.28571rem] py-[0.85714rem] my-0"
+                              className="font-bold text-[14px] font-roboto-condensed leading-4 uppercase font-robot border-b-[4px] border-b-[#393939] bg-[#cac9c9] text-[#393939] rounded-none hover:bg-[#ff6900] hover:border-b-[#c55b10] hover:text-white px-[2.28571rem] py-[0.85714rem] my-0"
                             >
                               VIEW DETAILS
                             </button>
@@ -468,13 +468,13 @@ const TopHeader = () => {
 
                           <div className="flex gap-2 p-4 pt-6">
                             <button
-                              className="flex-1 font-[var(--font-roboto-condensed)] font-bold bg-[#ff6900] hover:bg-[#b81818] text-white text-[1rem] py-2.5 px-4 border-0 border-b-[3px] border-b-[#ff6900] transition uppercase tracking-wide"
+                              className="flex-1 font-[var(--font-roboto-condensed)] font-bold bg-[#ff6900] hover:bg-[#ff6900] text-white text-[1rem] py-2.5 px-4 border-0 border-b-[3px] border-b-[#ff6900] transition uppercase tracking-wide"
                               onClick={() => handleSelect("/checkout")}
                             >
                               Check Out Now
                             </button>
                             <button
-                              className="flex-1 font-[var(--font-roboto-condensed)] font-bold bg-[#ff6900] hover:bg-[#b81818] text-white text-[1rem] py-2.5 px-4 border-0 border-b-[3px] border-b-[#ff6900] transition uppercase tracking-wide"
+                              className="flex-1 font-[var(--font-roboto-condensed)] font-bold bg-[#ff6900] hover:bg-[#ff6900] text-white text-[1rem] py-2.5 px-4 border-0 border-b-[3px] border-b-[#ff6900] transition uppercase tracking-wide"
                               onClick={() => {
                                 handleSelect("/cart");
                               }}
