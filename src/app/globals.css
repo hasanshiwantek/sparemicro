@@ -229,7 +229,7 @@ button {
   @apply bg-[#ff6900] text-white;
 
   /* Border styling - no left, right, top borders, bottom border with darker color */
-  @apply border-0 border-b-[4px] border-b-[#eb6302] rounded-none;
+  @apply border-0 border-b-[4px] border-b-[#cf5804] rounded-none;
 
   /* Spacing */
   @apply px-[2.28571rem] py-[0.85714rem] my-0;
@@ -245,11 +245,11 @@ button {
 }
 
 .btn-primary:hover {
-  @apply bg-[#eb6302] border-b-[#eb6302];
+  @apply bg-[#cf5804] border-b-[#cf5804];
 }
 
 .btn-primary:active {
-  @apply bg-[#eb6302] translate-y-[1px];
+  @apply bg-[#cf5804] translate-y-[1px];
 }
 
 .btn-primary:focus {
