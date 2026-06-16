@@ -7,6 +7,12 @@ import FeaturedProducts from "./components/Home/FeaturedProducts";
 import Brands from "./components/Home/Brands";
 import ShopNow from "./components/Home/ShopNow";
 import Testimonials from "./components/Home/Testimonials";
+import RightPowerSupply from "./components/Home/RightPowerSupply";
+import HighPowerSupply from "./components/Home/HighPowerSupply";
+import PowerYourPc from "./components/Home/PowerYourPc";
+import PowerSupplyImpact from "./components/Home/PowerSupplyImpact";
+import BlogsList from "./components/Home/BlogsList";
+import CatProducts from "./components/Home/CatProducts";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://sparemicro.vercel.app"),
@@ -69,24 +75,21 @@ const Page = async () => {
             <div className="lg:col-span-9">
               <Banner />
               <CategoryGrid />
-              <FeaturedProducts
+              <CatProducts
                 endpoint="web/products/featured-products"
                 isSlider={true}
                 title={"Featured Products".toUpperCase()}
               />
-              <FeaturedProducts
-                endpoint="web/products/popular-products"
-                isSlider={false}
-                title={"Current Top Sellers".toUpperCase()}
-              />
+              <RightPowerSupply />
+              <HighPowerSupply />
+              <PowerYourPc />
               <FeaturedProducts
                 endpoint="web/products/last-week-orders"
                 isSlider={true}
                 title={"New Products".toUpperCase()}
               />
-              {/* <Testimonials /> */}
-              <Brands />
-              <ShopNow />
+              <PowerSupplyImpact />
+              <BlogsList />
             </div>
           </div>
         </div>
