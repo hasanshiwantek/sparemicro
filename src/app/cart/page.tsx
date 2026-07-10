@@ -4,7 +4,7 @@ import { Metadata } from "next";
 
 export const metadata: Metadata = {
   title: {
-    absolute: "Spare Micro  - Shopping Cart"
+    absolute: "Spare Micro - Shopping Cart"
   },
   description:
     "View and manage your items in the shopping cart at Spare Micro. Add, remove, or update quantities before checkout.",
@@ -15,13 +15,13 @@ export const metadata: Metadata = {
     "Spare Micro cart",
   ],
   alternates: {
-    canonical: "https://sparemicro.vercel.app/cart",
+    canonical: " https://sparemicro.vercel.app/cart",
   },
   openGraph: {
     title: "Shopping Cart",
     description:
       "View and manage your items in the shopping cart at Spare Micro. Add, remove, or update quantities before checkout.",
-    url: "https://sparemicro.vercel.app/cart",
+    url: " https://sparemicro.vercel.app/cart",
     siteName: "Spare Micro",
     images: [
       {

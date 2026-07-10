@@ -7,7 +7,7 @@ export const metadata: Metadata = {
   description:
     "Browse all brands available at Spare Micro — servers, networking, and IT hardware.",
   alternates: {
-    canonical: "https://sparemicro.vercel.app/brands",
+    canonical: " https://sparemicro.vercel.app/brands",
   },
 };
 

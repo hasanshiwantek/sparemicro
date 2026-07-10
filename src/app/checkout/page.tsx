@@ -3,7 +3,7 @@ import { Metadata } from 'next';
 import CheckoutComponent from '../components/CheckoutComponent/CheckoutComponent'
 export const metadata: Metadata = {
   title: {
-    absolute: "Checkout - Spare Micro "  // template ignore karega
+    absolute: "Checkout - Spare Micro"  // template ignore karega
   },
   description:
     "View and manage your items in the shopping cart at Spare Micro. Add, remove, or update quantities before checkout.",
@@ -14,13 +14,13 @@ export const metadata: Metadata = {
     "Spare Micro cart",
   ],
   alternates: {
-    canonical: "https://sparemicro.vercel.app/cart",
+    canonical: " https://sparemicro.vercel.app/cart",
   },
   openGraph: {
     title: "Checkout",
     description:
       "View and manage your items in the shopping cart at Spare Micro. Add, remove, or update quantities before checkout.",
-    url: "https://sparemicro.vercel.app/checkout",
+    url: " https://sparemicro.vercel.app/checkout",
     siteName: "Spare Micro",
     images: [
       {

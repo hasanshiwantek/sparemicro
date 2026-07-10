@@ -14,7 +14,7 @@ export default function NoResults({ searchTerm, suggestedTerm, onRefineSearch }:
                 </span>
                 <button
                     onClick={onRefineSearch}
-                    className="text-[1rem] text-[#eb6302] hover:underline"
+                    className="text-[1rem] text-[#ff6900] hover:underline"
                 >
                     Refine Search
                 </button>

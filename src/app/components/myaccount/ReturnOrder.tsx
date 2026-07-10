@@ -17,7 +17,7 @@ const ReturnOrder = () => {
         setLoading(true);
         setError(null);
         const res = await axiosInstance.get("dashboard/orders/get-return-order");
-        console.log("API Response:", res?.data?.data);
+        
         
         if (res?.data?.data && res.data.data.length > 0) {
           setOrders(res.data.data);
@@ -26,7 +26,7 @@ const ReturnOrder = () => {
         }
       } catch (err) {
         setError("Failed to load return orders");
-        console.error(err);
+       
       } finally {
         setLoading(false);
       }
@@ -64,10 +64,10 @@ const ReturnOrder = () => {
     return (
       <div className="p-4">
         <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
-          <p className="text-[#eb6302] text-lg font-medium">{error}</p>
+          <p className="text-[#ff6900] text-lg font-medium">{error}</p>
           <button
             onClick={() => window.location.reload()}
-            className="mt-4 px-6 py-2 bg-[#ff6900] text-white rounded hover:bg-[#ff6900] transition"
+            className="mt-4 px-6 py-2 bg-[#ff6900] text-white rounded hover:bg-red-700 transition"
           >
             Retry
           </button>
@@ -107,14 +107,14 @@ const ReturnOrder = () => {
                 }
                 alt={order?.product?.[0]?.name || "Product Image"}
                 fill
-                className="object-contain border rounded-md"
+                className="object-contain border rounded-md"fetchPriority="high"
               />
             </div>
 
             {/* Product Details */}
             <div className="flex flex-col items-center md:items-start justify-center w-full">
               {/* <Link href={`/my-account/orders/${order?.orderNumber || ""}`}> */}
-                <p className="mb-1 text-xl text-[#eb6302] hover:text-red-700 transition-colors duration-200">
+                <p className="mb-1 text-xl text-[#ff6900] hover:text-red-700 transition-colors duration-200">
                   Order #{order?.orderNumber || "N/A"}
                 </p>
               {/* </Link> */}

@@ -6,12 +6,14 @@ import { RootState } from "@/redux/store";
 import { fetchAccountOrders } from "@/redux/slices/myaccountSlice";
 import Link from "next/link";
 import ReturnItemsModal from "./ReturnItemsModal"; // Import modal
+import { cartTransfer } from "@/redux/slices/cartsSlice";
 
 const OrderProduct = () => {
   const dispatch = useAppDispatch();
   const { order, loading, error } = useAppSelector(
     (state: RootState) => state.myaccount
   );
+  const auth = useAppSelector((state: RootState) => state?.auth);
 
   // Modal state
   const [isModalOpen, setIsModalOpen] = useState(false);
@@ -58,7 +60,7 @@ const OrderProduct = () => {
 
   if (error)
     return (
-      <p className="text-red-500">Failed to fetch orders. {error}</p>
+      <p className="text-[#ff6900]">Failed to fetch orders. {error}</p>
     );
 
   if (!order?.orders || order.orders.length === 0)
@@ -85,19 +87,19 @@ const OrderProduct = () => {
               <div className="w-full max-w-[128px] h-32 relative flex-shrink-0">
                 <Image
                   src={
-                    item?.products?.[0]?.images?.[0] || item?.products?.[1]?.images?.[0] ||
+                    item?.products?.[0]?.image?.[0]?.path || item?.products?.[1]?.image?.[0]?.path ||
                     "/default-product-image.svg"
                   }
                   alt={item?.products?.[0]?.name || item?.products?.[1]?.name || "Product Image"}
                   fill
-                  className="object-contain border rounded-md"
+                  className="object-contain border rounded-md"fetchPriority="high"
                 />
               </div>
 
               {/* Product Details */}
               <div className="flex flex-col justify-center w-full">
                 <Link href={`/my-account/orders/${item.order_number || ""}`}>
-                  <p className="mb-1 text-xl text-[#eb6302] hover:text-red-700 transition-colors duration-200">
+                  <p className="mb-1 text-xl text-[#ff6900] hover:text-red-700 transition-colors duration-200">
                     Order #{item.order_number || "N/A"}
                   </p>
                 </Link>
@@ -140,7 +142,7 @@ const OrderProduct = () => {
               {item?.status === "Completed" && (
                 <button
                   onClick={(e) => handleReturnClick(e, item)}
-                  className="mt-2 text-lg text-[#393939] underline cursor-pointer hover:text-[#eb6302] transition"
+                  className="mt-2 text-lg text-[#393939] underline cursor-pointer hover:text-[#ff6900] transition"
                 >
                   Return Items?
                 </button>

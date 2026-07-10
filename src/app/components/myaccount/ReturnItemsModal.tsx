@@ -120,7 +120,7 @@ const ReturnItemsModal: React.FC<ReturnItemsModalProps> = ({
         }
       } catch (err) {
         setError("Failed to load order details");
-        console.error(err);
+      
       } finally {
         setLoading(false);
       }
@@ -167,17 +167,16 @@ const ReturnItemsModal: React.FC<ReturnItemsModalProps> = ({
         isSubmit:true,
       };
 
-      console.log("Return Request Data:", returnData);
+    
 
       const response = await axiosInstance.post("web/orders/return-order", 
          returnData
       );
 
 
-        console.log("Return Request Response:", response.data);
       onClose();
     } catch (err) {
-      console.error("Submission error:", err);
+   
       alert("Failed to submit return request. Please try again.");
     } finally {
       setSubmitting(false);
@@ -248,13 +247,13 @@ const ReturnItemsModal: React.FC<ReturnItemsModalProps> = ({
           {/* Error State */}
           {error && !loading && !isSubmit && (
             <div className="bg-red-50 border border-red-200 rounded-lg p-6 text-center">
-              <p className="text-[#eb6302] text-lg font-medium mb-2">
+              <p className="text-[#ff6900] text-lg font-medium mb-2">
                 Error Loading Order
               </p>
               <p className="text-gray-700 mb-4">{error}</p>
               <button
                 onClick={onClose}
-                className="px-6 py-2 bg-[#ff6900] text-white rounded hover:bg-[#ff6900] transition"
+                className="px-6 py-2 bg-[#ff6900] text-white rounded hover:bg-red-700 transition"
               >
                 Close
               </button>
@@ -341,7 +340,7 @@ const ReturnItemsModal: React.FC<ReturnItemsModalProps> = ({
                   <div className="space-y-6">
                     <div>
                       <label className="block font-medium text-lg md:text-xl mb-2">
-                        Return Reason <span className="text-[#eb6302]">*</span>
+                        Return Reason <span className="text-[#ff6900]">*</span>
                       </label>
                       <select
                         required

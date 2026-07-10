@@ -69,7 +69,7 @@ export default function ProductList({
 
             {/* Error State */}
             {error && (
-                <div className="mt-6 text-center text-red-500 font-medium">
+                <div className="mt-6 text-center text-[#ff6900] font-medium">
                     ⚠️ Failed to load products. Please try again later.
                 </div>
             )}

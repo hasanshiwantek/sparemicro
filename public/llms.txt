@@ -1,0 +1,38 @@
+# Spare Micro: IT Hardware, Servers, Networking & Enterprise Solutions
+
+> Buy servers, networking equipment, storage devices, computer parts, and enterprise IT hardware. Browse products, brands, categories, and technical resources.
+
+Generated for AI assistants and large language models.
+
+## Pages
+
+- [Home]( https://sparemicro.vercel.app/)
+- [About Us]( https://sparemicro.vercel.app/about-us)
+- [Products]( https://sparemicro.vercel.app/products)
+- [Categories]( https://sparemicro.vercel.app/category)
+- [Brands]( https://sparemicro.vercel.app/brands)
+- [Advanced Search]( https://sparemicro.vercel.app/advanced-search)
+- [Contact Us]( https://sparemicro.vercel.app/contact-us)
+- [Blogs]( https://sparemicro.vercel.app/blogs)
+- [Terms & Conditions]( https://sparemicro.vercel.app/terms-conditions)
+- [Privacy Policy]( https://sparemicro.vercel.app/privacy-Policy)
+- [Shipping Policy]( https://sparemicro.vercel.app/shipping-policy)
+- [Return Policy]( https://sparemicro.vercel.app/return-Policy)
+
+## Product Categories
+
+- Servers
+- Networking Equipment
+- Storage Solutions
+- Computer Parts
+- Accessories
+- Enterprise Hardware
+
+## Resources
+
+- [Sitemap]( https://sparemicro.vercel.app/sitemap.xml)
+- [Robots]( https://sparemicro.vercel.app/robots.txt)
+
+## Purpose
+
+Spare Micro provides enterprise IT hardware, networking products, storage solutions, replacement parts, and accessories for businesses and IT professionals.

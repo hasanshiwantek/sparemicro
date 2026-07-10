@@ -1,9 +1,10 @@
 import React from "react";
 import BlogContainer from "../components/Blogs/BlogContainer";
 import { Metadata } from "next";
+// import "../../styles/blog/api-content.css";
 
 export const metadata: Metadata = {
-  metadataBase: new URL("https://sparemicro.vercel.app"),
+  metadataBase: new URL(" https://sparemicro.vercel.app"),
   title: {
     default: "Blogs",
     template: "%s | Blogs ",
@@ -20,7 +21,7 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    url: "https://sparemicro.vercel.app/blogs",
+    url: " https://sparemicro.vercel.app/blogs",
     siteName: "Spare Micro",
     title: "Spare Micro Blogs – Servers, Networking & IT Insights",
     description:

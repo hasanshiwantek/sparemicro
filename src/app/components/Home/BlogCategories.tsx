@@ -45,7 +45,7 @@ const BlogCategories = ({
                     // Skeleton Loader for 3 items
                     <BlogSkeleton />
                 ) : error ? (
-                    <div className="w-full py-10 text-center text-red-500 font-medium">
+                    <div className="w-full py-10 text-center text-[#ff6900] font-medium">
                         {error || "Something went wrong while fetching blogs."}
                     </div>
                 ) : blogPosts && blogPosts.length > 0 ? (
